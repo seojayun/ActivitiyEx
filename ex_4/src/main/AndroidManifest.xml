@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ex_4">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".TActivity" />
+        <activity android:name=".spActivity">
+
+            <!-- android:theme="@style/SplasgThema"> -->
+            <!-- //2번째 방법 6.  android:theme="@style/SplasgThema"추가 후 sp Actvity로 이동 -->
+
+
+            <!-- <intent-filter> -->
+            <!-- &lt;!&ndash;         <intent-filter> 내가 갖고있는 엑티비티 중에서 제일 액션이 큰 엑티비티다. 라는 의미임.       &ndash;&gt; -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+            <!-- 1.이 부분을 먼저 잘라서 붙여넣는다. -->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+            <!-- 이 네 줄을 잘라내서 다른 엑티비티에 붙여넣으면 그게 메인이 된다. -->
+
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

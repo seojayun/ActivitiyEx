@@ -1,0 +1,2 @@
+include ':app', ':aecivityex2', ':activityex3', ':duplexactivity', ':duplexactivity2', ':implicitex', ':ex_4', ':voiceex', ':ex10_5', ':sortex'
+rootProject.name='ActivitiyEx'

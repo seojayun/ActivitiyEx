@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/baegg"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aassvvb"/>
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/imgbtn1"
+        android:layout_gravity="center"
+        android:layout_width="45dp"
+        android:layout_height="45dp" />
+</LinearLayout>
+
+<!--<LinearLayout-->
+<!--    android:layout_weight="2"-->
+<!--    android:id="@+id/linear1"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_margin="3dp"-->
+<!--    android:orientation="vertical">-->
+
+
+
+<!--&lt;!&ndash;    <WebView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/mWebView"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent"/>&ndash;&gt;-->
+
+<!--</LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_weight="1"-->
+<!--        android:id="@+id/linear2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:orientation="vertical">-->
+
+
+
+<!--&lt;!&ndash;        <WebView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/wv1"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="match_parent"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <GridView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/gridView1"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:numColumns="4">&ndash;&gt;-->
+<!--&lt;!&ndash;        </GridView>&ndash;&gt;-->
+
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/linear33"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:src="@drawable/mlb222"
+            android:id="@+id/ivButton1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:src="@drawable/mlb222"
+            android:id="@+id/ivButton1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:id="@+id/linear12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:src="@drawable/mlb222"
+            android:id="@+id/ivButton2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:src="@drawable/mlb222"
+            android:id="@+id/ivButton2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

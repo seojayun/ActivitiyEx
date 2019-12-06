@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+                                                <!--테마를  noActionBar 선택하면 없어진다-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+<!--//2번째 방법 4. <style name="SplasgThema" parent="@android:style/Theme.Light.NoTitleBar"></style> 작성하여 스타일을 하나 더 만든다.-->
+<!--    <style name="SplasgThema" parent="@android:style/Theme.Light.NoTitleBar">-->
+<!--  //2번째 방법 5.     <item name="android:windowBackground">@drawable/mlb</item>  xml없이 직접 이미지를 가져옴   manifests 로 이동   -->
+<!--        <item name="android:windowBackground">@drawable/mlb-->
+
+<!--        </item>-->
+
+<!--    </style>-->
+</resources>
+
+
+<!--//2번째 방법 3.  이 부분은 main Activity 의 styles이다.-->
